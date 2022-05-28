@@ -1,0 +1,123 @@
+.form{
+    /* text-align: center; */
+    /* margin-right: 200px; */
+}
+
+.h2_div{
+     display: flex;
+     justify-content: end;
+}
+
+
+.h2_div>div{
+   display: flex;
+   justify-content: center;
+   width: 380px;
+}
+
+.crein,.cardin{
+    outline: 0px;
+    border: 0;
+
+    width:250px;
+}
+
+
+.footer{
+    display:flex;
+    justify-content: end;
+
+}
+.footer>div{
+    margin-left: 10px;
+   
+    border-bottom:2px solid hotpink ;
+    width: 115px;
+}
+
+.month,.year,.cvv{
+    outline: 0px;
+    border: 0;
+
+    width:60px;
+}
+
+
+label{
+    font-size: 12px;
+}
+span{
+    width:30px;
+}
+
+
+.div1{
+    display: flex;
+    justify-content: end;
+}
+.formchild1{
+    border-bottom:2px solid hotpink ;
+    width:370px;
+ 
+}
+input{
+    font-size: 18px;
+}
+
+
+.pay_div{
+    display: flex;
+    justify-content:end;
+    margin-top: 20px;
+}
+.pay_div>div{
+    display: flex;
+    justify-content:center;
+    width: 380px;
+    /* border: 1px solid red; */
+}
+
+.pay_div>div>input{
+    height: 30px;
+    margin-top:10px;
+    margin-left: 10px;
+    width: 90px;
+    border: 0;
+    outline: 0px;
+    border-bottom: 2px solid hotpink;
+}
+
+
+.btn_div{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.btn_div>div{
+    display: flex;
+    width: 380px;
+    justify-content: center;
+  /* border: 1px solid red; */
+}
+button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(222, 50, 136);
+    color:white;
+    border: 0;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    gap:100px
+}
+
+img{
+    width: 500px;
+    height:400px;
+
+}
